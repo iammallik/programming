@@ -29,7 +29,9 @@ class SampleIo {
         /*BufferedReader*/
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String name = br.readLine();                // Reading input from STDIN
-        System.out.println("Hi, " + name + ".");    // Writing output to STDOUT
+        int x = Integer.parseInt(name);
+        String[] arr = name.split("\\s");
+        System.out.println("name:" + n + "x:"+x);    // Writing output to STDOUT
 
         /*Scanner*/
         Scanner s = new Scanner(System.in);
