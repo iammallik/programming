@@ -1,3 +1,4 @@
+from __future__ import print_function
 '''
 # Sample code to perform I/O:
 '''
